@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="870" height="247" viewBox="0 0 870 247">
+  <g id="bm_logo" transform="translate(-903 -135)">
+    <rect id="Rectangle_6" data-name="Rectangle 6" width="870" height="237" transform="translate(903 145)" fill="rgba(241,14,14,0)"/>
+    <g id="bm_logo-2" data-name="bm_logo">
+      <g id="bm_square">
+        <rect id="Rectangle_4" data-name="Rectangle 4" width="198" height="198" rx="25" transform="translate(903 162)" fill="#e20666"/>
+        <text id="m" transform="translate(960 309)" fill="#fff" font-size="152" font-family="Webdings"><tspan x="0" y="0">m</tspan></text>
+      </g>
+      <text id="Bookmark" transform="translate(1128 269)" fill="#fff" font-size="124" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Bookmark</tspan></text>
+      <text id="Dashboard_manager" data-name="Dashboard manager" transform="translate(1132 333)" fill="#4b5467" font-size="59" font-family="YuGothic-Regular, Yu Gothic" letter-spacing="0.002em"><tspan x="0" y="0">Dashboard manager</tspan></text>
+    </g>
+  </g>
+</svg>
