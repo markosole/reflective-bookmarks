@@ -1,21 +1,23 @@
 # Bookmar Manager + NodeJS + VUE
 
-This is simple dahsboard alike Bookmark Manager created with productivity in mind. 
-Built as an idea to replace Browser default page and allow you to add and organize Bookmarks i categories. 
+This is simple Bookmark Dashboard Manager, one of many out there but has something that others do not offer. 
+Built as an idea to replace your Browser default page and allow you to convert it into large Bookmark dashboard.
 
-It is base on NodeJS express server acting as endpoint, MongoDB for a database and VUE3 app as a frontend. 
+It is based on NodeJS express server, MongoDB and VUE3 app as a frontend.
 
 ## Features
 
+- ✅ Self Hosted & Open Source
 - ✅ Runs as a Docker and as standalone NodeJS + MongoDB + VUE3 app
 - ✅ Multiuser interface (profiles similar to Netflix) with simple switching
-- ✅ Bookmark Categories & ordering
+- ✅ Available on the local network and Online
+- ✅ Categories with ordering
 - ✅ Bookmarks ordering with drag & drop
 - ✅ Bookmarks export as JSON
 - ❎ Bookmark import (ToDo)
 
 # Configuration
-To run in production and on your public domain, make sure that FQDN in configured in `.env`. 
+To run in production and on your public domain, set your FQDN.
 
 ## API server 
 Navigate to `./server` root directory and edit `.env`. Replace `http://localhost` with your domain. If you are running Server and Client as stand alone applications, change host on `MONGO_HOST` or leave as default for Docker environment.
@@ -50,9 +52,9 @@ docker-compose up -d --build
 ```
 
 # Running individually
-You can run applications on different machines. 
+You can run applications on different machines / instances / domains. 
 
-Running server:
+Running server, acting as Endpoint:
 ```bash
 cd /server
 npm start
