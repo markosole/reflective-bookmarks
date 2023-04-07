@@ -2,8 +2,12 @@
 
 This is simple Bookmark Dashboard Manager, one of many out there but has something that others do not offer. 
 Built as an idea to replace your Browser default page and allow you to convert it into large Bookmark dashboard.
-
 It is based on NodeJS express server, MongoDB and VUE3 app as a frontend.
+
+
+![alt text](https://github.com/markosole/reflective-bookmarks/blob/main/demo/bookmarks.png)
+
+![alt text](https://github.com/markosole/reflective-bookmarks/blob/main/demo/profile.png)
 
 ## Features
 
