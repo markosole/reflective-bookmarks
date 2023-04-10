@@ -50,9 +50,7 @@ function closeModal() {
     isEditCategoryShowModal.value = false
 }
 
-const serverport = process.env.VUE_APP_SERVER_PORT || (window.location.port !== '' ? window.location.port : 80);
-const api_server = process.env.VUE_APP_SERVER_HOST || window.location.href;
-const endpoint = api_server + (serverport == 80 ? '/' : ':' + serverport);
+const endpoint = "/";
 
 export default {
   expose: ['editCategory'],
